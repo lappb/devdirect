@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "eee63d84-d4c0-419a-b689-99dad391971b",
+		"name": "devdirect",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "995808",
+		"_collection_link": "https://lunar-capsule-706336.postman.co/workspace/Team-Workspace~fbabd1f0-d079-4a70-84a9-f5a264af7ec0/collection/995808-eee63d84-d4c0-419a-b689-99dad391971b?action=share&creator=995808&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "test1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "logs",
+							"value": "unishop/product/list,unishop/category/list,unishop/product/create,kyowon/user/list,commerce/product/create,kyowon/user/create,kyowon/banner/update,unishop/category/update,commerce/product/create,unishop/product/list,unishop/category/list,commerce/product/update,unishop/product/create,kyowon/user/list,commerce/product/delete,kyowon/user/create,kyowon/banner/update,unishop/category/delete",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/test1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"test1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "input",
+							"value": "true,false,false",
+							"type": "text"
+						},
+						{
+							"key": "input",
+							"value": "false,true,false",
+							"type": "text"
+						},
+						{
+							"key": "input",
+							"value": "false,false,false",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/test2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"test2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
